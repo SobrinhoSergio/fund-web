@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sétimo Exercício - 2</title>
+
+    <style>
+        fieldset{
+            display:inline;
+        }
+        input {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+
+    <form action="/clientes" method="POST">
+        
+        <fieldset>
+            
+            <legend>Cadastro de Clientes</legend>
+            <label for="fname">Nome</label><br>
+            <input type="text" name="fnome" placeholder="Digite seu nome" maxlength="30" required><br>
+            <label for="fendereco">Endereço</label><br>
+            <input type="text" name="fendereco" placeholder="Digite seu endereço" maxlength="50" size="50" required><br>
+            <label for="femail">Email</label><br>
+            <input type="email" name="femail" placeholder="Digite seu email" maxlength="30" required><br>
+            <input type="checkbox" id="fnewsletter" name="fnewsletter">
+            <label for="fnewsletter"> Desejo receber newsletter</label><br>
+
+                <button>Cadastrar</button>
+                <input type="reset" value="Cancelar">
+        
+        </fieldset>
+   
+    </form>
+
+</body>
+</html>
