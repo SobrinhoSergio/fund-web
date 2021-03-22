@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: sans-serif;
+}
+body {
+    background-color: #012838;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+header span{
+    color: #0098e4;
+}
+
+li a:hover{
+    color: #0098e4;
+}
+
+
+li {
+    padding: 25px;
+    display: inline;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.controle {
+    margin-top: 20px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.principal{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.principal .cropped{
+    width: 95%; /* width of container */
+    height: 95%; /* height of container */
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.surf {
+    width: 100%;
+}
+
+.texto-sobre-imagem{
+    position: absolute;
+    bottom: 50%;
+    left: 40px;
+}
+
+.texto-sobre-imagem p:first-child{
+    font-size: 80px;
+}
+.texto-sobre-imagem p:last-child{
+    width: 70%;
+    margin-left: 90px;
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.box{
+    background-color: #0468a1;
+    color: white;
+    padding: 10px;
+    margin: 30px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.box p{
+    margin: 20px;
+}
+
+.box p:first-child{
+    font-size: 32px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.box:first-child{
+    margin-left: 0px;
+}
+
+.box:last-child{
+    margin-right: 0px;
+}
+
+.box a{
+    margin-top: 70px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 160px;
+    background: linear-gradient(180deg, #00aeea 50%, #0091d8 50%);
+}
+
+.ultima-secao{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+}
+
+.principal nav{
+    background-color: #ccecff;
+}
+
+.principal nav ul{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+.principal nav ul li{
+    padding: 15px;
+}
+
+.principal nav a{
+    color: #15668a;
+    font-weight: 700;
+}
+.principal nav a:hover{
+    color: black;
+}
+
+footer{
+    color: white;
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px;
+    align-items:baseline;
+}
+
+footer p{
+    margin-left: 30px;
+}
+
+footer i{
+    margin-right: 20px;
+    font-size: 23px;
+} 
