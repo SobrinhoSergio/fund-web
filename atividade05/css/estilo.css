@@ -46,7 +46,6 @@ header a:hover {
     color: #fff;
 }
 
-
 /*main*/
 
 main {
@@ -146,14 +145,6 @@ main {
     
 }
 
-.box h3{
-    text-align: center;
-}
-
-.box p{
-    text-align: left;
-}
-
 
 .box, .box-2 {
     border:1px solid #aaa;
@@ -167,7 +158,8 @@ main {
     border: none;
     cursor: pointer;
     padding: 10px;
-    margin: 10px 20px;
+    margin: 20px 200px;
+    text-align: center;
 
 }
 
@@ -199,6 +191,7 @@ footer li{
 
 footer div.row{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -307,7 +300,8 @@ footer div.row{
     }
 
     .box h3, .box-2 h3, .box h4 {
-        margin: 5px 0;    
+        margin: 5px 0;   
+        text-align: center; 
     }
 
     .box p, .box h3, .box h4, .box-2 h3, .box-2 p {
@@ -329,9 +323,11 @@ footer div.row{
     .box button {
         padding: 10px;
         margin: 5px 10px;
+        float: right;
     }
 
     footer div {
+        display: flex;
         justify-content: space-between;
     }
     
@@ -340,11 +336,14 @@ footer div.row{
         list-style: none;
         display:flex;
         flex-direction: row;
-        justify-content: space-between;
     }
 
     footer li {
         flex-grow: 1;
         margin:0px 15px;
+    }
+
+    footer li i{
+        font-size: 30px;
     }
 }
