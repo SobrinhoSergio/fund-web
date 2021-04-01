@@ -139,10 +139,8 @@ main {
 }
 
 .carousel-bullets a:hover{
-
     background-color:#777;
     color:#fff;
-    
 }
 
 
@@ -213,12 +211,20 @@ footer div.row{
         flex-direction: row;
         flex-wrap:wrap;
     }
+        .row-2 {
+        width: 733px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        display:flex;
+        flex-direction: row;
+    }
 
     .box {
         width:350px;
         box-sizing: border-box;
         margin: 10px 16px;
         border-radius: 5px;
+
     }
     .box:nth-child(odd) {
         margin-left:0;
@@ -239,21 +245,27 @@ footer div.row{
         float:right;
         margin: 10px;
     }
-
-    ul{
-        list-style:none;
-        display:flex;
-    }
-    li{
-        margin-left:10px;
+    .box-2{
+        flex: 70%;
     }
 
-    div.row{
-        display:flex;
+    footer .row{
         justify-content: space-between;
-        
     }
 
+    .media ul{
+        display: flex;
+        list-style: none;
+    }
+    .media li{
+        margin-left: 10px;
+    }
+    .carousel-controller {
+        position: absolute;
+        top:150px;  
+        width:87%;
+        left: 50px;
+    }
    
 }
 /*desktop*/
