@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #ebebe7;
+           
+        }
+
+        #container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 700px;
+            background-color: #9ba8a8;
+            padding: 30px;
+            height: 400px;
+            border-radius: 12px; 
+        }
+
+        #container h1{
+            text-align: center;
+            margin-bottom: 40px;
+            color: #fff;
+            font-size: 30px;
+        }
+
+        #res{
+            background-color: #ebebe7;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 17px;
+        }
+
+        input{
+           border: 1px solid #eee;
+           padding: 10px;
+           width: 100%;
+           margin-bottom: 20px;
+           outline: none;
+
+        }
+
+        p{
+            color: red
+        }
+
+        #container button{
+            padding: 10px;
+            font-size: 19px;
+            border: 1px solid #eee;
+            cursor: pointer;
+            background-color: #ebebe7;
+            display: block;
+            margin: 0 auto;
+            outline: none;
+        }
+        
+
+    </style>
+
+
+</head>
+<body>
+
+    <section>
+
+    <div id="container">
+
+        <h1>Exercício JavaScript</h1>
+
+        <div id="res"></div>
+
+        <form>
+            <input type="number" id="num1"><br/>
+            <input type="number" id="num2"><br/>
+        </form>
+
+        <button id="calcular">Calcular</button>
+
+    </div>  
+
+    </section>
+   
+</body>
+        <script src="exe010.js"></script>
+</html>
